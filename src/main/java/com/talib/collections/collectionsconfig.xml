@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean name="employee1" class="com.talib.collections.Employee">
+		<property name="name" value="Talib"></property>
+
+		<property name="phones">
+			<list>
+				<value>645656</value>
+				<value>56456</value>
+				<value>98978</value>
+				<null></null>
+			</list>
+		</property>
+
+		<property name="addresses">
+			<set>
+				<value>Mirpur</value>
+				<value>Basabo</value>
+				<value>Mugda</value>
+			</set>
+		</property>
+
+		<property name="courses">
+			<map>
+				<entry key="java" value="3 months"></entry>
+				<entry key="python" value="2 months"></entry>
+			</map>
+		</property>
+
+		<property name="houses">
+			<props>
+				<prop key="floor">5</prop>
+				<prop key="road">2</prop>
+			</props>
+		</property>
+	</bean>
+
+
+</beans>
