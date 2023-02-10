@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/util 
+	http://www.springframework.org/schema/util/spring-util.xsd">
+	
+	<!--STANDALONE COLLECTIONS-->
+	<util:list list-class="java.util.LinkedList" id="myBestFriends">
+		<value>Akash</value>
+		<value>Zahid</value>
+		<value>Sagor</value>
+	</util:list>
+	
+	<util:map map-class="java.util.HashMap" id="feeStructure">
+		<entry key="akash" value="34342"/>	
+		<entry key="batash" value="45345"/>	
+		<entry key="sagor" value="3222"/>	
+	</util:map>
+	
+	<util:properties id="dbconfig">
+		<prop key="driver">com.mysql.jdbc.Driver</prop>
+		<prop key="url">ipname.com</prop>
+		<prop key="username">root</prop>
+		<prop key="password">wewewe</prop>
+		
+	</util:properties>
+		
+	<bean class="com.talib.standalone.collections.Person" name="person">
+		<property name="friends" ref="myBestFriends"/>
+		<property name="feeStructure" ref="feeStructure"/>
+		<property name="properties" ref="dbconfig"/>
+	</bean>
+
+
+
+</beans>
