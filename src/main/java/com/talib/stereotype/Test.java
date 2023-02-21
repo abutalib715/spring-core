@@ -9,5 +9,7 @@ public class Test {
 		
 		Student student = con.getBean("student", Student.class);
 		System.out.println(student);
+		System.out.println(student.getAddress());
+		System.out.println(student.getAddress().getClass().getName());
 	}
 }
