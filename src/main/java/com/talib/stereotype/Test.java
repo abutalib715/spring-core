@@ -11,5 +11,11 @@ public class Test {
 		System.out.println(student);
 		System.out.println(student.getAddress());
 		System.out.println(student.getAddress().getClass().getName());
+		System.out.println(student.hashCode());
+		
+		Student student2 = con.getBean("student", Student.class);
+		
+		System.out.println(student2.hashCode());
+		
 	}
 }
