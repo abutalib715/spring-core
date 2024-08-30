@@ -1,4 +1,4 @@
-package com.spring.core.ci;
+package com.spring.core.constructor_injection;
 
 public class Certificate {
     private String name;

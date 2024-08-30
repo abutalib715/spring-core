@@ -1,11 +1,11 @@
-package com.spring.core.ci;
+package com.spring.core.constructor_injection;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Test {
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("com/spring/core/ci/ciconfig.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("constructor_injection_config.xml");
 
         Person person = (Person) context.getBean("person");
         System.out.println(person);
