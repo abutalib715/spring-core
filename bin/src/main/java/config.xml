@@ -4,13 +4,13 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 	
 	
-	<bean class="com.talib.Student" name="student1">
+	<bean class="com.spring.core.Student" name="student1">
 		<property name="studentId" value="44545" />
 		<property name="studentName" value="Abu Talib" />
 		<property name="studentAddress" value="Dhaka" />
 	</bean>
 		
-	<bean class="com.talib.Student" name="student2">
+	<bean class="com.spring.core.Student" name="student2">
 		<property name="studentId" value="8989" />
 		<property name="studentName" value="Masud" />
 		<property name="studentAddress" value="CTG" />
