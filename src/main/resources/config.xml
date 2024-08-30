@@ -7,8 +7,12 @@
 
     <bean class="com.spring.core.Student" name="student1" p:studentId="6456" p:studentName="Talib"
           p:studentAddress="Dhaka"></bean>
-    <bean class="com.spring.core.Student" name="student2" p:studentId="6644" p:studentName="Hasna"
-          p:studentAddress="CTG"></bean>
+
+    <bean class="com.spring.core.Student" name="student2">
+        <property name="studentName" value="Jhon"></property>
+        <property name="studentAddress" value="CTG"></property>
+        <property name="studentId" value="578"></property>
+    </bean>
 
 
     <!--	<bean>-->
