@@ -5,7 +5,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-	<bean class="com.spring.core.ref.A" name="beanA" p:x="7676" p:objB-ref="beanB" />
+	<bean class="com.spring.core.dependency_injection.ref.A" name="beanA" p:x="7676" p:objB-ref="beanB" />
 
 <!--	<bean class="ref.com.spring.core.A" name="beanA">-->
 <!--		<property name="x" value="89"></property>-->
@@ -15,7 +15,7 @@
 <!--&lt;!&ndash;		</property>&ndash;&gt;-->
 <!--	</bean>-->
 
-	<bean class="com.spring.core.ref.B" name="beanB">
+	<bean class="com.spring.core.dependency_injection.ref.B" name="beanB">
 		<property name="y" value="56"></property>
 	</bean>
 

@@ -1,4 +1,4 @@
-package com.spring.core.constructor_injection;
+package com.spring.core.dependency_injection.constructor_injection;
 
 import java.util.List;
 

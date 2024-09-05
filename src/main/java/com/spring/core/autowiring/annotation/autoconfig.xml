@@ -10,17 +10,17 @@
 	
 	<context:annotation-config />
 	
-	<bean class="com.spring.core.auto.wire.annotation.Address" name="address1">
+	<bean class="com.spring.core.autowiring.annotation.Address" name="address1">
 		<property name="state" value="Temp state" />
 		<property name="city" value="Temp City" />
 	</bean>
-	<bean class="com.spring.core.auto.wire.annotation.Address" name="address2">
+	<bean class="com.spring.core.autowiring.annotation.Address" name="address2">
 		<property name="state" value="Temp state 2" />
 		<property name="city" value="Temp City 2" />
 	</bean>
 	
 	
-	<bean class="com.spring.core.auto.wire.annotation.Employee" name="employee"></bean>
+	<bean class="com.spring.core.autowiring.annotation.Employee" name="employee"></bean>
 
 
 </beans>

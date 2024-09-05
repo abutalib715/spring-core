@@ -1,4 +1,4 @@
-package com.spring.core.auto.wire.annotation;
+package com.spring.core.autowiring.annotation;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

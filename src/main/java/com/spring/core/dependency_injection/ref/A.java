@@ -1,4 +1,4 @@
-package com.spring.core.ref;
+package com.spring.core.dependency_injection.ref;
 
 public class A {
     private Integer x;

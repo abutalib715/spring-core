@@ -1,4 +1,4 @@
-package com.spring.core.auto.wire.annotation;
+package com.spring.core.autowiring.annotation;
 
 public class Address {
 	private String state;

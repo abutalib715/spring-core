@@ -1,4 +1,4 @@
-package com.spring.core.ref;
+package com.spring.core.dependency_injection.ref;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

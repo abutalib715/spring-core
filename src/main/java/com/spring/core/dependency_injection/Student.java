@@ -1,4 +1,4 @@
-package com.spring.core;
+package com.spring.core.dependency_injection;
 
 public class Student {
 	private Integer studentId;

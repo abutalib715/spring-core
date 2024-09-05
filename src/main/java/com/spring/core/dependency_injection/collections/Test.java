@@ -1,4 +1,4 @@
-package com.spring.core.collections;
+package com.spring.core.dependency_injection.collections;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

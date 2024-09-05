@@ -5,10 +5,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean class="com.spring.core.Student" name="student1" p:studentId="6456" p:studentName="Talib"
+    <bean class="com.spring.core.dependency_injection.Student" name="student1" p:studentId="6456" p:studentName="Talib"
           p:studentAddress="Dhaka"></bean>
 
-    <bean class="com.spring.core.Student" name="student2">
+    <bean class="com.spring.core.dependency_injection.Student" name="student2">
         <property name="studentName" value="Jhon"></property>
         <property name="studentAddress" value="CTG"></property>
         <property name="studentId" value="578"></property>

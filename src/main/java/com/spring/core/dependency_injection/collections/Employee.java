@@ -1,4 +1,4 @@
-package com.spring.core.collections;
+package com.spring.core.dependency_injection.collections;
 
 import java.util.List;
 import java.util.Map;

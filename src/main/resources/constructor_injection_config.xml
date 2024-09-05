@@ -5,7 +5,7 @@
 	xmlns:c	="http://www.springframework.org/schema/c"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean class="com.spring.core.constructor_injection.Person" name="person">
+	<bean class="com.spring.core.dependency_injection.constructor_injection.Person" name="person">
 		<constructor-arg value="Talib" type="java.lang.String"/>
 		<constructor-arg value="31231" type="java.lang.Integer" />
 		<constructor-arg ref="certificate" />
@@ -17,10 +17,10 @@
 		</constructor-arg>
 	</bean>
 
-	<bean class="com.spring.core.constructor_injection.Certificate" name="certificate" c:name="HSC">
+	<bean class="com.spring.core.dependency_injection.constructor_injection.Certificate" name="certificate" c:name="HSC">
 	</bean>
 
-	<bean class="com.spring.core.constructor_injection.Addition" name="addition">
+	<bean class="com.spring.core.dependency_injection.constructor_injection.Addition" name="addition">
 		<constructor-arg value="54" type="int" index="1"></constructor-arg>
 		<constructor-arg value="19" type="int" index="0"></constructor-arg>
 	</bean>

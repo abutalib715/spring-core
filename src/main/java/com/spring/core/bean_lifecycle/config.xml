@@ -7,15 +7,15 @@
 
 	<context:annotation-config />
 
-	<bean class="com.spring.core.lifecycle.Samosa" name="samosa1" init-method="init" destroy-method="destroy">
+	<bean class="com.spring.core.bean_lifecycle.Samosa" name="samosa1" init-method="init" destroy-method="destroy">
 		<property name="price" value="8" />
 	</bean>
 
-	<bean class="com.spring.core.lifecycle.Pepsi" name="pepsi">
+	<bean class="com.spring.core.bean_lifecycle.Pepsi" name="pepsi">
 		<property name="price" value="64" />
 	</bean>
 
-	<bean class="com.spring.core.lifecycle.Cocacola" name="cocacola">
+	<bean class="com.spring.core.bean_lifecycle.Cocacola" name="cocacola">
 		<property name="country" value="BD" />
 	</bean>
 </beans>

@@ -1,4 +1,4 @@
-package com.spring.core.auto.wire;
+package com.spring.core.autowiring.xml_based;
 
 public class Employee {
 	private Address address;
