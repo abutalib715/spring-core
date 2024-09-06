@@ -1,4 +1,4 @@
-package com.spring.core.standalone.collections;
+package com.spring.core.standalone_collection;
 
 import java.util.List;
 import java.util.Map;

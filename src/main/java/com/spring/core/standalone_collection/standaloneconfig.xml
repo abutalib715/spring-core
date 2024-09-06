@@ -29,7 +29,7 @@
 		
 	</util:properties>
 		
-	<bean class="com.spring.core.standalone.collections.Person" name="person">
+	<bean class="com.spring.core.standalone_collection.Person" name="person">
 		<property name="friends" ref="myBestFriends"/>
 		<property name="feeStructure" ref="feeStructure"/>
 		<property name="properties" ref="dbconfig"/>
